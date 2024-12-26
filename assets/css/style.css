@@ -1,11 +1,15 @@
-h1 {
-    font-size: 150%;
-    color: aqua;
-}
-h2 {
-    color: red;
-}
-p {
-    background-color: #a6a6a6;
-    color: white;
-}
+/* Testing GREY colors
+
+#ababab; Standard Gray
+#606060; Dark Gray
+*/
+/* Text color on dark background
+.white-text {
+    color: #ffffff;
+  }
+  
+Text color on light background
+  .black-text {
+    color: #000000;
+  }
+*/
