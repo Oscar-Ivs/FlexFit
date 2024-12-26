@@ -26,9 +26,20 @@ body {
 }
 /* Set transparency to NavBar logo */
 .logo-small {
-    opacity: 0.9; /* 90% opacity for the small logo */
+    opacity: 0.6; /* 90% opacity for the small logo */
 }
 
-.logo-large {
-    opacity: 0.7; /* 70% opacity for the large logo */
+
+#navbar {
+    background-color: #506774; /* Set the background color */
+    font-size: 120%;
+}
+
+#navbar .navbar-nav .nav-link {
+    color: white; /* Set the text color to white */
+}
+
+#navbar .navbar-nav .nav-link.active {
+    color: white; /* Ensure the active link is also white */
+    font-weight: bold; /* Make the text bold */
 }
