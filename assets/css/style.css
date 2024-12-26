@@ -14,3 +14,21 @@
 body {
     font-family: var(--primary-font);
 }
+/* NavBar */
+
+/* Center logo image on navbar */
+.logo-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center; /* Center text alignment for the logo */
+}
+/* Set transparency to NavBar logo */
+.logo-small {
+    opacity: 0.9; /* 90% opacity for the small logo */
+}
+
+.logo-large {
+    opacity: 0.7; /* 70% opacity for the large logo */
+}
