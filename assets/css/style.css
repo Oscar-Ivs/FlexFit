@@ -1,19 +1,12 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-
-/* Testing GREY colors
-
-#ababab; Standard Gray
-#606060; Dark Gray
-*/
-/* Text color on dark background
-.white-text {
-    color: #ffffff;
-  }
-  
-Text color on light background
-  .black-text {
-    color: #000000;
-  }
-*/
+/* CSS Variables */
+:root {
+    --primary-font: "Montserrat", Arial, sans-serif;
+    --secondary-font: "Roboto", Helvetica, sans-serif;
+    --primary-color: #606060; /* dark gray */
+    --secondary-color: #ababab; /* light gray */
+    --highlight-color: #3b0746; /* Purple */
+    --highlight-color-light: #db7fed; /* light Purple */
+}
