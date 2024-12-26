@@ -88,6 +88,56 @@ FlexFit Gym's website is designed to provide a comprehensive online presence for
 ### Tablet & Mobile Version contact.html
 ![Tablet Wireframe](assets/images/wireframes/contact-tablet-mobile-wireframe.png)
 
+## Webpage Testing Strategy
+
+### Objective
+To ensure that the FlexFit Gym website offers a seamless and efficient user experience across all devices and platforms, I will use a comprehensive testing strategy. This strategy encompasses various tools and methods to test functionality, responsiveness, accessibility, and performance.
+
+### Tools and Methods Used
+
+#### 1. **Chrome DevTools**
+- **Purpose:** To initially test the responsiveness and functionality of the website.
+- **Process:**
+  - Use the responsive design mode to simulate various screen sizes.
+  - Test website features and user interactions to ensure functionality across different simulated devices.
+
+#### 2. **Lighthouse**
+- **Purpose:** To assess the performance, accessibility, best practices, and SEO of the website.
+- **Process:**
+  - Run Lighthouse audits from within Chrome DevTools.
+  - Analyze the reports to identify areas for improvement in terms of performance, accessibility, SEO, and adherence to web best practices.
+  - Implement recommended changes and iterate the audit process to improve scores.
+
+#### 3. **W3C Validation**
+- **Purpose:** To ensure the HTML and CSS code meets industry standards and is free from errors.
+- **Process:**
+  - Use the W3C HTML Validator (https://validator.w3.org/) to validate the HTML of the website.
+  - Use the W3C CSS Validator (https://jigsaw.w3.org/css-validator/) to check the CSS.
+  - Document any errors or warnings identified and address them to ensure the code adheres to web standards.
+  - Re-validate post-fixes to confirm that all issues have been successfully resolved.
+
+#### 4. **Cross-Device Physical Testing**
+- **Purpose:** To confirm that the website operates effectively on actual devices, not just in simulated environments.
+- **Process:**
+  - Test the website on various physical devices including different smartphones, tablets, and desktops.
+  - Use a range of browsers (e.g., Chrome, Firefox, Safari, Edge) to ensure compatibility and functionality.
+  - Check for visual consistency and interactive elements across devices.
+
+#### 5. **Cross-Browser Testing**
+- **Purpose:** To ensure the website displays and functions correctly across various web browsers.
+- **Process:**
+  - Test on the latest versions of major browsers like Chrome, Firefox, Safari, and Edge.
+  - Look for any CSS or JavaScript compatibility issues.
+  - Verify that layouts appear as intended and that all functionalities work.
+
+### Reporting and Fixes
+- **Bug Reporting:** Any issues found during testing will be documented with screenshots and detailed descriptions.
+- **Resolution:** Documented bugs will be prioritized based on their impact and fixed accordingly. Regression testing will be conducted post-fix to ensure no new issues have been introduced.
+
+### Continuous Testing
+- **Ongoing Testing:** Webpage testing is an ongoing process throughout the development cycle to catch regressions and bugs as new features are added.
+
+By employing this structured approach to testing, including validation through W3C tools, we aim to deliver a robust, high-performing, and user-friendly website that meets the needs and expectations of all FlexFit Gym patrons.
 
 
 ## Contact Information
