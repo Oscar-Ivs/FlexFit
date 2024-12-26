@@ -64,9 +64,31 @@ FlexFit Gym's website is designed to provide a comprehensive online presence for
 - **Tasks**:
   - Integrate a sign-up form into the website's footer using Bootstrap forms.
 
-## How to Run the Project
-1. Clone the repository to your local machine.
-2. Open the `index.html` file in a web browser to view the website.
+## Wireframes
+
+### Desktop Version index.html
+![Desktop Wireframe](assets/images/wireframes/index-desktop-wireframe.png)
+
+### Tablet & Mobile Version index.html
+![Tablet Wireframe](assets/images/wireframes/index-tablet-mobile-wireframe.png)
+
+### Desktop Version membership.html
+![Desktop Wireframe](assets/images/wireframes/membership-desktop-wireframe.png)
+
+### Tablet & Mobile Version membership.html
+![Tablet Wireframe](assets/images/wireframes/membership-tablet-mobile-wireframe.png)
+### Desktop Version timetable.html
+![Desktop Wireframe](assets/images/wireframes/timetable-desktop-wireframe.png)
+
+### Tablet & Mobile Version timetable.html
+![Tablet Wireframe](assets/images/wireframes/timetable-tablet-mobile-wireframe.png)
+### Desktop Version contact.html
+![Desktop Wireframe](assets/images/wireframes/contact-desktop-wireframe.png)
+
+### Tablet & Mobile Version contact.html
+![Tablet Wireframe](assets/images/wireframes/contact-tablet-mobile-wireframe.png)
+
+
 
 ## Contact Information
 For more information, please contact us at [hk57agob@students.codeinstitute.net](hk57agob@students.codeinstitute.net).
