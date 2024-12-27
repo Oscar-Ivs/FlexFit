@@ -6,7 +6,7 @@
     --primary-font: "Montserrat", Arial, sans-serif;
     --secondary-font: "Roboto", Helvetica, sans-serif;
     --primary-color: #606060; /* dark gray */
-    --secondary-color: #ababab; /* light gray */
+    --secondary-color: #dfd8d8; /* light gray */
     --highlight-color: #3b0746; /* Purple */
     --highlight-color-light: #a890ad; /* light Purple */
 }
@@ -26,7 +26,7 @@ body {
 }
 /* Set transparency to NavBar logo */
 .logo-small {
-    opacity: 0.6; /* 90% opacity for the small logo */
+    opacity: 0.5; /* 90% opacity for the small logo */
 }
 
 
@@ -43,3 +43,17 @@ body {
     color: white; /* Ensure the active link is also white */
     font-weight: bold; /* Make the text bold */
 }
+.hero-section {
+    background-image: url('../images/home-hero-img.webp'); /* Hero image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    text-align: center; /* Center text elements */
+    padding: 20px; /* Padding on all sides */
+}
+
+  
