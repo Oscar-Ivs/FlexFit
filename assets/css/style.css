@@ -5,14 +5,10 @@
 :root {
     --primary-font: "Montserrat", Arial, sans-serif;
     --secondary-font: "Diplomata", sans-serif;
-    --primary-color: #606060;
-    /* dark gray */
-    --secondary-color: #dfd8d8;
-    /* light gray */
-    --highlight-color: #3b0746;
-    /* Purple */
-    --highlight-color-light: #a890ad;
-    /* light Purple */
+    --primary-color: #606060; /* dark gray */
+    --secondary-color: #dfd8d8; /* light gray */
+    --highlight-color: #3b0746; /* Purple */
+    --highlight-color-light: #a890ad; /* light Purple */
 }
 
 /* Global Styles */
@@ -83,3 +79,15 @@ body {
     text-align: center; /* Center text elements */
     padding: 20px; /* Padding on all sides */
 }
+#slogan {
+    /* Final rgba value sets the opacity so it is semi-transparent */
+    position: absolute;
+    bottom: 430px;
+    left: 165px;
+    padding-top: 30px;
+    padding-left: 10px;
+    font-family: var(--secondary-font);
+    font-size: 120%;
+    color: white;
+}
+
