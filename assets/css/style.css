@@ -109,25 +109,4 @@ h1, h2, h3 {
     font-size: 140%;
     color: white;
 }
-.community-section, .bootcamp-section, .boxing-section {
-    margin: 20px;
-    padding: 10px;
-    text-align: center; /* Center the text inside the sections */
-}
-
-.carousel-section {
-    margin: 20px;
-    width: 100%;
-}
-
-h2 {
-    color: #333; /* Dark grey for headers */
-    margin-bottom: 10px;
-}
-
-p {
-    font-size: 1em;
-    color: #666; /* Light grey for paragraph */
-}
-
 
