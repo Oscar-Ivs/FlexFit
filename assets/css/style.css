@@ -18,14 +18,10 @@ body {
 
 /* NavBar */
 #navbar {
-    height: 81px;
-    box-shadow: 0 2px 2px var(--secondary-color);
+    height: 82px;
+    box-shadow: 0 4px 4px var(--secondary-color);
 }
 
-/* Move more left navbar logo */
-.logo-small {
-    margin-left: -90px;
-}
 #logo {
     font-family: var(--secondary-font);
     font-weight: bold;
@@ -37,18 +33,6 @@ body {
     background-color: #506774;
     /* Set the background color */
     font-size: 120%;
-}
-/* Adjust the container to create space on the right */
-#navbar .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-/* Apply extra margin or padding to the navbar-nav */
-#navbar .navbar-nav {
-    margin-right: -35px;
-    padding-right: -35px;
 }
 
 #navbar .navbar-nav .nav-link {
@@ -62,8 +46,30 @@ body {
     font-weight: bold;
     /* Make the text bold */
 }
+/* Button */
 
+.custom-button-filled {
+    border: 3px solid #506774;
+    background-color: #506774;
+    color: white;
+}
 
+.custom-button-filled:hover {
+    border: 2px solid var(--highlight-color);
+    background-color: var(--highlight-color);
+    color: white;
+}
+
+.custom-button-outline {
+    border: 2px solid white;
+    padding: 3px 20px;
+    color: var(--highlight-color)
+}
+
+.custom-button-outline:hover {
+    background-color: var(--highlight-color);
+    color: black
+}
 
 /* Hero image section */
 #hero {
@@ -75,7 +81,6 @@ body {
     display: flex;
 }
 #slogan {
-    /* Final rgba value sets the opacity so it is semi-transparent */
     position: absolute;
     bottom: 430px;
     left: 165px;
