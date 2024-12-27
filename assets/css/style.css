@@ -73,11 +73,6 @@ body {
     background-position: center;
     height: 75vh;
     display: flex;
-    flex-direction: column; /* Stack items vertically */
-    justify-content: center; /* Center vertically */
-    align-items: center; /* Center horizontally */
-    text-align: center; /* Center text elements */
-    padding: 20px; /* Padding on all sides */
 }
 #slogan {
     /* Final rgba value sets the opacity so it is semi-transparent */
