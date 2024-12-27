@@ -5,49 +5,73 @@
 :root {
     --primary-font: "Montserrat", Arial, sans-serif;
     --secondary-font: "Roboto", Helvetica, sans-serif;
-    --primary-color: #606060; /* dark gray */
-    --secondary-color: #dfd8d8; /* light gray */
-    --highlight-color: #3b0746; /* Purple */
-    --highlight-color-light: #a890ad; /* light Purple */
+    --primary-color: #606060;
+    /* dark gray */
+    --secondary-color: #dfd8d8;
+    /* light gray */
+    --highlight-color: #3b0746;
+    /* Purple */
+    --highlight-color-light: #a890ad;
+    /* light Purple */
 }
+
 /* Global Styles */
 body {
     font-family: var(--primary-font);
 }
+
 /* NavBar */
-
-/* Center logo image on navbar */
-.logo-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    text-align: center; /* Center text alignment for the logo */
+#navbar {
+    height: 81px;
 }
-/* Set transparency to NavBar logo */
+
+/* Set transparency to NavBar logo and move more left */
 .logo-small {
-    opacity: 0.5; /* 90% opacity for the small logo */
+    margin-left: -90px;
+    /* Adjust this value to move it more to the left */
+    opacity: 0.5;
+    /* Maintain the opacity of 50% */
 }
-
 
 #navbar {
-    background-color: #506774; /* Set the background color */
+    background-color: #506774;
+    /* Set the background color */
     font-size: 120%;
+}
+/* Adjust the container to create space on the right */
+#navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Apply extra margin or padding to the navbar-nav */
+#navbar .navbar-nav {
+    margin-right: -35px;
+    padding-right: -35px;
 }
 
 #navbar .navbar-nav .nav-link {
-    color: white; /* Set the text color to white */
+    color: white;
+    /* Set the text color to white */
 }
 
 #navbar .navbar-nav .nav-link.active {
-    color: white; /* Ensure the active link is also white */
-    font-weight: bold; /* Make the text bold */
+    color: white;
+    /* Ensure the active link is also white */
+    font-weight: bold;
+    /* Make the text bold */
 }
-.hero-section {
-    background-image: url('../images/home-hero-img.webp'); /* Hero image */
+
+
+
+/* Hero image section */
+#hero {
+    background-image: url('../images/home-hero-img.webp');
+    /* Hero image */
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 75vh;
     display: flex;
     flex-direction: column; /* Stack items vertically */
     justify-content: center; /* Center vertically */
@@ -55,5 +79,3 @@ body {
     text-align: center; /* Center text elements */
     padding: 20px; /* Padding on all sides */
 }
-
-  
