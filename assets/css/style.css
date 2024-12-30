@@ -104,13 +104,15 @@ h1, h2, h3 {
 }
 #slogan {
     position: absolute;
-    top: 400px;
-    left: 165px;
-    padding-top: 30px;
-    padding-left: 10px;
+    text-align: left;
+    margin-top: 25px;
+    width: 280px;
+    top: 68%;     /* Adjust to 50% or use 'vh' units to better control vertical position */
+    left: 5%;    /* Center horizontally */
     font-family: var(--secondary-font);
-    font-size: 140%;
+    font-size: 2.8vh;  /* Use 'vh' for font size to scale with viewport */
     color: white;
+    text-align: center;
 }
 .container {
     text-align: center;
