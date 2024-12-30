@@ -119,7 +119,12 @@ h1, h2, h3 {
 .container {
     text-align: center;
 }
+
 .carousel-section {
     text-align: center;
+    /* Ensure the boxing section is centered */
+.carousel-section .row {
+    justify-content: center;
 }
 
+}
