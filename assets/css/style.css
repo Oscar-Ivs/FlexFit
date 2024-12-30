@@ -107,8 +107,8 @@ h1, h2, h3 {
     text-align: left;
     margin-top: 25px;
     width: 280px;
-    top: 68%;     /* Adjust to 50% or use 'vh' units to better control vertical position */
-    left: 5%;    /* Center horizontally */
+    top: 68%;     /* Adjust to 68% possition from top*/
+    left: 5%;    /* Left possition */
     font-family: var(--secondary-font);
     font-size: 2.8vh;  /* Use 'vh' for font size to scale with viewport */
     color: white;
