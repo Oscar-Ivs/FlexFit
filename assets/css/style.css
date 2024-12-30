@@ -142,3 +142,13 @@ h1, h2, h3 {
     justify-content: center;
     margin: 20px;
 }
+/* Footer */
+.contact-section {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    width: 100%;
+}
+.contact-info {
+    font-size: 85%;
+    color: var(--highlight-color);
+}
