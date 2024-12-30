@@ -122,9 +122,9 @@ h1, h2, h3 {
 
 .carousel-section {
     text-align: center;
-    /* Ensure the boxing section is centered */
+}
+    /* Add some margin to sections */
 .carousel-section .row {
     justify-content: center;
-}
-
+    margin: 20px;
 }
