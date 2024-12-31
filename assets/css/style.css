@@ -143,7 +143,7 @@ h1, h2, h3 {
     margin: 20px;
 }
 /* Footer */
-.footer {
+#contact {
     background-color: #506774;
     color: var(--secondary-color);
     width: 100%;
@@ -157,9 +157,6 @@ h1, h2, h3 {
     display: flex;
     justify-content: center;
 }
-
-/* Center text on small devices */
-.footer .text-center {
-    text-align: center;
+#contact .table-dark * {
+    background-color: transparent;
 }
-
