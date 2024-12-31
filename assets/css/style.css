@@ -186,3 +186,6 @@ h2{
     background-color: transparent;
     color: var(--secondary-color)
 }
+.text-container {
+    text-align: right;
+}
