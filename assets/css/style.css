@@ -156,6 +156,7 @@ h1, h2, h3 {
 .social-links {
     display: flex;
     justify-content: center;
+    font-size: 2.8rem;
 }
 #contact .table-dark * {
     background-color: transparent;
