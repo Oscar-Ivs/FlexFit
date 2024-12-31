@@ -27,6 +27,23 @@ h2{
     height: 82px;
     box-shadow: 0 2px 2px var(--secondary-color);
     width: 100%;
+    background-color: #506774;
+    font-size: 120%;  
+}
+.navbar-nav {
+    margin-right: 30px; /* Keeps the menu items pushed to the right */
+}
+/* Ensure the navbar is aligned to the right */
+#navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navbar .navbar-nav {
+    margin-left: auto;
+}
+.navbar-brand { 
+    margin-right: auto;
 }
 
 #logo {
@@ -34,13 +51,6 @@ h2{
     font-weight: bold;
     margin-left: 300px;
     color: black;
-}
-
-#navbar {
-    background-color: #506774;
-    font-size: 120%;
-    width: 100%;
-
 }
 
 #navbar .navbar-nav .nav-link {
@@ -83,7 +93,7 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
-    top:84px;
+    top:50px;
     width: 100%;
     height: 68px;
     background-color: #506774;
@@ -95,7 +105,8 @@ h2{
     text-align: center;
 }
 /* Adjust the navbar brand logo */ 
-.logo-small { width: 50px;
+.logo-small {
+    width: 80px;
     height: auto; }
 
 /* Hero image section */
