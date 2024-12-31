@@ -141,6 +141,8 @@ By employing this structured approach to testing, including validation through W
 
 ### Java Scripts by 3rd party
 - **Java Script to automatically update the copyright year:**
+```javascript
+// JavaScript code example
 <script>
     document.addEventListener('DOMContentLoaded', function () {
         const year = new Date().getFullYear(); // Get current year
@@ -150,6 +152,8 @@ By employing this structured approach to testing, including validation through W
 </script>
 
 - **JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links:**
+```javascript
+// JavaScript code example
 <script>
     document
         .querySelectorAll(".navbar-collapse .nav-link")

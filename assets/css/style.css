@@ -40,10 +40,14 @@ h2{
     background-color: #506774;
     font-size: 120%;
     width: 100%;
+
 }
 
 #navbar .navbar-nav .nav-link {
     color: white; /* Set the text color to white */
+}
+/* Dropdown menu background color with some opacity */
+.dropdown-menu { background-color: rgba(80, 103, 116, 0.8);
 }
 
 #navbar .navbar-nav .nav-link.active {
