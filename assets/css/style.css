@@ -20,7 +20,7 @@ h1, h2, h3 {
 }
 /* Minimum of 16px plus a small percentage of the viewport width */
 h2{
-    font-size: calc(16px + 0.7vw);
+    font-size: calc(12px + 0.9vw);
 }
 /* NavBar */
 #navbar {
@@ -108,7 +108,7 @@ h2{
     text-align: left;
     margin-top: 25px;
     margin-right: 5%;
-    top: 75%;     /* Adjust to 68% possition from top*/
+    top: 75%;     /* Adjust to 75% possition from top*/
     left: 5%;    /* Left possition */
     font-family: var(--secondary-font);
     font-size: 2.8vh;  /* Use 'vh' for font size to scale with viewport */
