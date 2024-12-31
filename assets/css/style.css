@@ -18,6 +18,10 @@ body {
 h1, h2, h3 {
     font-family: var(--secondary-font);
 }
+/* Minimum of 16px plus a small percentage of the viewport width */
+h2{
+    font-size: calc(16px + 0.7vw);
+}
 /* NavBar */
 #navbar {
     height: 82px;
