@@ -139,6 +139,17 @@ To ensure that the FlexFit Gym website offers a seamless and efficient user expe
 
 By employing this structured approach to testing, including validation through W3C tools, we aim to deliver a robust, high-performing, and user-friendly website that meets the needs and expectations of all FlexFit Gym patrons.
 
+### Java Scripts by 3rd party
+- **Java Script to automatically update the copyright year:**
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const year = new Date().getFullYear(); // Get current year
+        const copyright = document.querySelector('#contact p'); // Select the copyright paragraph
+        copyright.innerHTML = `&copy; ${year} FlexFit GYM. All rights reserved.`; // Set text dynamically
+    });
+</script>
+
+
 
 ## Contact Information
 For more information, please contact us at [hk57agob@students.codeinstitute.net](hk57agob@students.codeinstitute.net).
