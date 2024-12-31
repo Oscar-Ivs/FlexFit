@@ -163,7 +163,7 @@ h1, h2, h3 {
 
 #contact .social-links {
     text-align: center;
-    padding: 40px;
+    padding: 60px 0;
     display: flex;
     justify-content: space-evenly;
     align-items: center; /* Center items vertically */
