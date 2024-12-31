@@ -169,6 +169,11 @@ h1, h2, h3 {
     align-items: center; /* Center items vertically */
     list-style-type: none;
 }
+#contact h3 {
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-size: 120%
+}
 
 #contact .social-links i:hover {
     color: var(--highlight-color);
