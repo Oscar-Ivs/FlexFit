@@ -287,11 +287,6 @@ color:var(--highlight-color);
     text-align: center;
     color: black;
 }
-.container, .row {
-    margin: 0;
-    padding: 0;
-    width: 100%; /* Ensure the container is full width */
-}
 
 .col-12.col-md-6 {
     justify-content: center;
