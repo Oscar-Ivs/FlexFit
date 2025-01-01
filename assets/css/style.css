@@ -106,7 +106,7 @@ h2{
 /* Adjust the navbar brand logo */ 
 .logo-small {
     width: 80px;
-    height: auto; }
+    }
 
 /* Hero image section */
 #hero {
@@ -205,4 +205,21 @@ h2{
     font-size: 90%;
     padding-top: 15px;
     color: var(--highlight-color-light);
+}
+/* Membership Section */
+.membership {
+    display: flex; /* Using flexbox to align children */
+    justify-content: space-between; /* This spreads out the child elements */
+    align-items: center; /* This centers the items vertically */
+    background-color: #76a7a7;
+    padding: 0 10px; /* Adds padding on the left and right */
+    height: 244px; /* Maintains height */
+}
+
+.membership p#slogan {
+    font-size: calc(11px + 0.8vw);
+}
+.membership p.options#slogan {
+    font-size: 100%;
+    color: var(--highlight-color);
 }
