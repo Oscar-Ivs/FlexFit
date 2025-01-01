@@ -253,4 +253,5 @@ color:var(--secondary-color);
 }
 .plans-grid h4 {
     text-decoration: underline;
+    color: black;
 }
