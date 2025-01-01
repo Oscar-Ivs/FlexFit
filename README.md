@@ -146,10 +146,11 @@ By employing this structured approach to testing, including validation through W
 <script>
     document.addEventListener('DOMContentLoaded', function () {
         const year = new Date().getFullYear(); // Get current year
-        const copyright = document.querySelector('#contact p'); // Select the copyright paragraph
+        const copyright = document.querySelector('.text-container p'); // Select the copyright paragraph using the correct class selector
         copyright.innerHTML = `&copy; ${year} FlexFit GYM. All rights reserved.`; // Set text dynamically
     });
 </script>
+
 
 - **JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links:**
 ```javascript
