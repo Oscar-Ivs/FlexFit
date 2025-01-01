@@ -57,7 +57,7 @@ h2{
 }
 
 #navbar .navbar-nav .nav-link.active {
-    color: white; /* Ensure the active link is also white */
+    color:var(--highlight-color-light); /* Ensure the active link is hightlight color light */
     font-weight: bold; /* Make the text bold */
 }
 /* Button */
