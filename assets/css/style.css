@@ -253,32 +253,54 @@ color:var(--secondary-color);
 /* Timetable */
 .membership {
     box-shadow: 0 3px 3px var(--highlight-color-light);
+    justify-content: center;
 }
 #section-1 {
     background-color:rgba(114, 143, 143, 0.7);
-    height: 60vh;
+    height: 30vw;
     width: 100%;
+    text-align: center;
 }
 
 #section-2 {
     background-image: url('../images/timetables-1-img.webp');
     background-size: cover;
     background-position: center;
-    height: 60vh;
+    height: 30vw;
     display: flex;
+    color: var(--secondary-color);
 }
 #section-3 {
     background-image: url('../images/timetables-2-img.webp');
     background-size: cover;
     background-position: center;
-    height: 60vh;
+    height: 30vw;
     display: flex;
+    color: var(--secondary-color);
 }
 #section-4 {
     background-color: rgba(114, 143, 143, 0.7);
-    height: 60vh;
+    height: 30vw;
     width: 100%;
+    text-align: center;
 }
+.container, .row {
+    margin: 0;
+    padding: 0;
+    width: 100%; /* Ensure the container is full width */
+}
+
+.col-12.col-md-6 {
+    padding: 0; /* Ensures no padding within columns */
+    margin: 0; /* Ensures no margin is affecting the width */
+}
+.hero-section H4 {
+    font-size: 100%;
+}
+
+
+
+
 
 
 
