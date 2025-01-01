@@ -219,6 +219,9 @@ h2{
 .membership p#slogan {
     font-size: calc(10px + 0.8vw);
 }
+.membership p#slogan:hover {
+    color:black;
+}
 .membership p.options#slogan {
     font-size: 110%;
     color: var(--highlight-color);
