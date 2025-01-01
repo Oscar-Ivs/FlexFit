@@ -198,11 +198,12 @@ h2{
 .membership {
     display: flex; /* Using flexbox to align children */
     align-items: center; /* This centers the items vertically */
-    background-color: #728f8f; /* background color */
+    background-color: rgba(114, 143, 143, 0.8); /* background color */
     height: 170px; /* Maintains height */
 }
 .membership h2 {
 margin-top: 140px;
+color:var(--secondary-color);
 }
 .membership h2:hover {
     color: var(--highlight-color);
@@ -232,16 +233,24 @@ margin-top: 140px;
     display: grid;
     grid-template-columns: auto; /* All items in one column */
     gap: 10px;
-    background-color: var(--secondary-color);
+    background-color: rgba(114, 143, 143, 0.8);
     padding: 20px;
     border-radius: 10px;
     height: 60vh;
+    color: black;
 }
 .plans-grid > div {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-weight: 650;
+}
+.plans-grid > div:hover {
+    color: var(--secondary-color);
 }
 #hero2 {
     justify-content: center;
+}
+.plans-grid h4 {
+    text-decoration: underline;
 }
