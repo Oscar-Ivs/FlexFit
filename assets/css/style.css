@@ -194,7 +194,28 @@ h2{
 #contact .social-links i:hover {
     color: var(--highlight-color);
 }
+/* Membership Section */
+.membership {
+    display: flex; /* Using flexbox to align children */
+    align-items: center; /* This centers the items vertically */
+    background-color: #76a7a7; /* background color */
+    height: 170px; /* Maintains height */
+}
+.membership h2 {
+margin-top: 140px;
+}
+.membership h2:hover {
+    color: var(--highlight-color);
+}
 
+/* Membership hero section */
+#hero2 {
+    background-image: url('../images/membership-hero-img.webp');
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    display: flex;
+}
 
 /* Footer table */
 #contact .table-dark * {
@@ -205,42 +226,4 @@ h2{
     font-size: 90%;
     padding-top: 15px;
     color: var(--highlight-color-light);
-}
-/* Membership Section */
-.membership {
-    display: flex; /* Using flexbox to align children */
-    justify-content: space-between; /* This spreads out the child elements */
-    align-items: center; /* This centers the items vertically */
-    background-color: #76a7a7;
-    height: 244px; /* Maintains height */
-}
-
-.membership p#slogan {
-    font-size: calc(10px + 0.8vw); /* Makes Slogan text size changes by screen size, but maintains min size of 10px */
-    text-align: left;
-    margin-left: 0;
-    margin-top: 10px;
-    padding-left: 0;
-    color: var(--secondary-color);
-}
-.membership p#slogan:hover {
-    color:black;
-}
-.membership p.options#slogan {
-    font-size: 110%;
-    color: var(--highlight-color);
-    text-align: right;
-    margin-right: 5px;
-    margin-top: 10px;
-    padding-right: 0;
-    position: relative;
-    top: 95px;
-}
-/* Membership hero section */
-#hero2 {
-    background-image: url('../images/membership-hero-img.webp');
-    background-size: cover;
-    background-position: center;
-    height: 90vh;
-    display: flex;
 }
