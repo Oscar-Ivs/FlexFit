@@ -198,7 +198,7 @@ h2{
 .membership {
     display: flex; /* Using flexbox to align children */
     align-items: center; /* This centers the items vertically */
-    background-color: #76a7a7; /* background color */
+    background-color: #728f8f; /* background color */
     height: 170px; /* Maintains height */
 }
 .membership h2 {
