@@ -212,12 +212,16 @@ h2{
     justify-content: space-between; /* This spreads out the child elements */
     align-items: center; /* This centers the items vertically */
     background-color: #76a7a7;
-    padding: 0 10px; /* Adds padding on the left and right */
     height: 244px; /* Maintains height */
 }
 
 .membership p#slogan {
-    font-size: calc(10px + 0.8vw);
+    font-size: calc(10px + 0.8vw); /* Makes Slogan text size changes by screen size, but maintains min size of 10px */
+    text-align: left;
+    margin-left: 0;
+    margin-top: 10px;
+    padding-left: 0;
+    color: var(--secondary-color);
 }
 .membership p#slogan:hover {
     color:black;
@@ -225,4 +229,9 @@ h2{
 .membership p.options#slogan {
     font-size: 110%;
     color: var(--highlight-color);
+    text-align: right;
+    margin-right: 5px;
+    margin-top: 10px;
+    padding-right: 0;
+
 }
