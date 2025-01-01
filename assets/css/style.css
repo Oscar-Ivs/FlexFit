@@ -15,7 +15,7 @@
 body {
     font-family: var(--primary-font);
 }
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: var(--secondary-font);
 }
 /* Minimum of 16px plus a small percentage of the viewport width */
@@ -226,4 +226,22 @@ margin-top: 140px;
     font-size: 90%;
     padding-top: 15px;
     color: var(--highlight-color-light);
+}
+/* Membership Plans & Prices section */
+.plans-grid {
+    display: grid;
+    grid-template-columns: auto; /* All items in one column */
+    gap: 10px;
+    background-color: var(--secondary-color);
+    padding: 20px;
+    border-radius: 10px;
+    height: 60vh;
+}
+.plans-grid > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#hero2 {
+    justify-content: center;
 }
