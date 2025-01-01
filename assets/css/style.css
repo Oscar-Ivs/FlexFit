@@ -236,3 +236,11 @@ h2{
     position: relative;
     top: 95px;
 }
+/* Membership hero section */
+#hero2 {
+    background-image: url('../images/membership-hero-img.webp');
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    display: flex;
+}
