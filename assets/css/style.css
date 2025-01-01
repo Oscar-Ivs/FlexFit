@@ -266,8 +266,7 @@ color:var(--highlight-color);
     background-position: center;
     height: 30vw;
     display: flex;
-    color: var(--secondary-color);
-    text-decoration: underline;
+    color:white;
     justify-content: flex-start;
 }
 #section-3 {
@@ -276,8 +275,7 @@ color:var(--highlight-color);
     background-position: center;
     height: 30vw;
     display: flex;
-    color: var(--secondary-color);
-    text-decoration: underline;
+    color: white;
     justify-content: flex-end;
 }
 #section-4 {
@@ -296,7 +294,6 @@ color:var(--highlight-color);
 .hero-section H4 {
     font-size: 100%;
 }
-
 
 
 
