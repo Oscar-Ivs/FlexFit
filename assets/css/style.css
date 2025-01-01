@@ -250,6 +250,26 @@ color:var(--secondary-color);
     color: black;
 }
 
+/* Timetable */
+
+#section-2 {
+    background-image: url('../images/timetables-1-img.webp');
+    background-size: cover;
+    background-position: center;
+    height: 75vh;
+    display: flex;
+}
+#section-3 {
+    background-image: url('../images/timetables-2-img.webp');
+    background-size: cover;
+    background-position: center;
+    height: 75vh;
+    display: flex;
+}
+
+
+
+
 
 
 
