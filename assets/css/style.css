@@ -44,7 +44,6 @@ h2 {
     margin-right: 5%;
 }
 
-
 #logo {
     font-family: var(--secondary-font);
     font-weight: bold;
@@ -112,7 +111,6 @@ h2 {
 /* Hero image section */
 #hero {
     background-image: url('../images/home-hero-img.webp');
-    /* Hero image */
     background-size: cover;
     background-position: center;
     height: 75vh;
@@ -158,17 +156,7 @@ h2 {
     justify-content: center;
     margin: 20px;
 }
-/* Footer */
-#contact {
-    background-color: #506774;
-    color: var(--secondary-color);
-    width: 100%;
-    margin-bottom: 0;
-}
-.contact-info {
-    font-size: 85%;
-    color: var(--highlight-color);
-}
+
 /* Social media links */
 #contact .social-links i {
     color: var(--secondary-color);
@@ -337,6 +325,9 @@ color:var(--highlight-color);
 }
 
 /* Contact Section */
+#hero3 {
+
+}
 
 
 
@@ -346,8 +337,17 @@ color:var(--highlight-color);
 
 
 
-
-
+/* Footer */
+#contact {
+    background-color: #506774;
+    color: var(--secondary-color);
+    width: 100%;
+    margin-bottom: 0;
+}
+.contact-info {
+    font-size: 85%;
+    color: var(--highlight-color);
+}
 /* Footer table */
 #contact .table-dark * {
     background-color: transparent;
