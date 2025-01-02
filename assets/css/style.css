@@ -254,18 +254,19 @@ color:var(--highlight-color);
 }
 #section-1 {
     background-color:rgba(114, 143, 143, 0.7);
-    height: 30vw;
+    height: calc(228px + 24vw);
     width: 100%;
     text-align: center;
     color: black;
     padding-top: 15px;
+    font-size: calc(10px + 0.7vh);
 }
 
 #section-2 {
     background-image: url('../images/timetables-1-img.webp');
     background-size: cover;
     background-position: center;
-    height: 30vw;
+    height: calc(228px + 24vw);
     display: flex;
     color:white;
     justify-content: flex-start;
@@ -274,18 +275,19 @@ color:var(--highlight-color);
     background-image: url('../images/timetables-2-img.webp');
     background-size: cover;
     background-position: center;
-    height: 30vw;
+    height: calc(228px + 24vw);
     display: flex;
     color: white;
     justify-content: flex-end;
 }
 #section-4 {
     background-color: rgba(114, 143, 143, 0.7);
-    height: 30vw;
+    height: calc(228px + 24vw);
     width: 100%;
     text-align: center;
     color: black;
     padding-top: 15px;
+    font-size: calc(10px + 0.7vh);
 }
 
 .col-12.col-md-6 {
@@ -306,7 +308,6 @@ color:var(--highlight-color);
     height: 70%; /* Adjust height of table */
     margin: auto; /* center the table */
     font-family: var(--secondary-font);
-    font-size: calc(10px +1vh); /* Make font-size responsive */
 }
 .table2 tr {
     border-bottom: 1px solid gray;
