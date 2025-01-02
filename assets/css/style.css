@@ -277,7 +277,7 @@ color:var(--highlight-color);
 #section-2 ul {
     padding-left: 20px;
     padding-top: 25px;
-    width: 40vh;
+    width: 35vh;
 }
 #section-2 li {
     margin-bottom: 25px;
@@ -289,21 +289,19 @@ color:var(--highlight-color);
     height: calc(228px + 24vw);
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
     color: white;
-    align-items: flex-end;
-    padding-right: 20px;
-    padding-top: 20px;
 }
 #section-3 ul {
-    padding-right: 20px;
+    padding-left: 20px;
     padding-top: 25px;
-    width: 40vh;
+    width: 35vh;
 }
 #section-3 li {
-        margin-bottom: 25px;
-        text-align: right;
+       margin-top: 20px;
     }
-
+    
 #section-4 {
     background-color: rgba(114, 143, 143, 0.7);
     height: calc(228px + 24vw);
@@ -319,9 +317,7 @@ color:var(--highlight-color);
     padding: 0; /* Ensures no padding within columns */
     margin: 0; /* Ensures no margin is affecting the width */
 }
-.hero-section H4 {
-    font-size: 100%;
-}
+
 .hero-section h3 {
     text-decoration: underline;
 }
@@ -336,6 +332,10 @@ color:var(--highlight-color);
 .table2 tr {
     border-bottom: 1px solid gray;
 }
+#section-2 #section-3 .text {
+    width: 40vh;
+}
+
 
 
 
