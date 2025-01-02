@@ -19,7 +19,7 @@ h1, h2, h3, h4 {
     font-family: var(--secondary-font);
 }
 /* Minimum of 16px plus a small percentage of the viewport width */
-h2{
+h2 {
     font-size: calc(12px + 0.9vw);
 }
 /* NavBar */
@@ -296,6 +296,9 @@ color:var(--highlight-color);
 .hero-section H4 {
     font-size: 100%;
 }
+.hero-section h3 {
+    text-decoration: underline;
+}
 /* Bootcamps table */
 .table2 {
     background-color:transparent; /* Make table background transparent */
@@ -303,6 +306,7 @@ color:var(--highlight-color);
     height: 70%; /* Adjust height of table */
     margin: auto; /* center the table */
     font-family: var(--secondary-font);
+    font-size: calc(10px +1vh); /* Make font-size responsive */
 }
 .table2 tr {
     border-bottom: 1px solid gray;
