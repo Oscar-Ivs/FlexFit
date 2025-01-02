@@ -301,7 +301,7 @@ color:var(--highlight-color);
 #section-3 li {
        margin-top: 20px;
     }
-    
+
 #section-4 {
     background-color: rgba(114, 143, 143, 0.7);
     height: calc(228px + 24vw);
@@ -336,6 +336,7 @@ color:var(--highlight-color);
     width: 40vh;
 }
 
+/* Contact Section */
 
 
 

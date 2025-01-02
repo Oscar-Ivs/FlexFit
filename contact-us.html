@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body class="d-flex flex-column min-vh-150">
+<body class="d-flex flex-column min-vh-100">
     <!-- Navigation -->
     <section>
         <nav id="navbar" class="navbar navbar-expand-md fixed-top">
@@ -42,10 +42,10 @@
                             <a class="nav-link" href="timetables.html">Timetables</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+                            <a class="nav-link active" aria-current="page" href="contact-us.html">Contact Us</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="btn custom-button-filled ms-lg-3">Join us</a>
+                            <a href="#" class="btn custom-button-filled ms-lg-3">Join Us</a>
                         </li>
                     </ul>
                 </div>
@@ -56,6 +56,14 @@
         <nav id="sub-navbar" class="navbar">
             <h1>FlexFit GYM</h1>
         </nav>
+        <div class="container">
+            <!-- hero Image section -->
+             <div class="row mb-4">
+                <div class="col-12">
+                    <img src="../FlexFit/assets/images/contact-hero-img.webp" class="img-fluid" alt="Hero Image">
+                </div>
+             </div>
+        </div>
 
 
         <!-- Footer / contact section -->
@@ -137,13 +145,13 @@
         <!-- Font Awesome kit -->
         <script src="https://kit.fontawesome.com/aa9af45995.js" crossorigin="anonymous"></script>
         <!-- Java Script to automatically update Copyright year -->
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            const year = new Date().getFullYear(); // Get current year
-            const copyright = document.querySelector('.text-container p'); // Select the copyright paragraph using the correct class selector
-            copyright.innerHTML = `&copy; ${year} FlexFit GYM. All rights reserved.`; // Set text dynamically
-        });
-    </script>
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                const year = new Date().getFullYear(); // Get current year
+                const copyright = document.querySelector('.text-container p'); // Select the copyright paragraph using the correct class selector
+                copyright.innerHTML = `&copy; ${year} FlexFit GYM. All rights reserved.`; // Set text dynamically
+            });
+        </script>
 </body>
 
 </html>
