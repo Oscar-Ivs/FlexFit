@@ -258,6 +258,7 @@ color:var(--highlight-color);
     width: 100%;
     text-align: center;
     color: black;
+    padding-top: 15px;
 }
 
 #section-2 {
@@ -284,6 +285,7 @@ color:var(--highlight-color);
     width: 100%;
     text-align: center;
     color: black;
+    padding-top: 15px;
 }
 
 .col-12.col-md-6 {
@@ -301,6 +303,9 @@ color:var(--highlight-color);
     height: 70%; /* Adjust height of table */
     margin: auto; /* center the table */
     font-family: var(--secondary-font);
+}
+.table2 tr {
+    border-bottom: 1px solid gray;
 }
 
 
