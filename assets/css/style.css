@@ -294,7 +294,14 @@ color:var(--highlight-color);
 .hero-section H4 {
     font-size: 100%;
 }
-
+/* Bootcamps table */
+.table2 {
+    background-color:transparent; /* Make table background transparent */
+    width: 60%; /* Adjust width of table */
+    height: 70%; /* Adjust height of table */
+    margin: auto; /* center the table */
+    font-family: var(--secondary-font);
+}
 
 
 
