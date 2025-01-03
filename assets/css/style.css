@@ -379,68 +379,58 @@ color:var(--highlight-color);
 }
 
 #right-1 {
-    height: 50%;
+    background-image: linear-gradient(to bottom, rgba(114, 143, 143, 1) 0%, rgba(114, 143, 143, 0.2) 100%);
+    height: 100%;
     width: 100%;
     text-align: center;
-    padding-top: 12px;
-    margin-top: 60px;
+    padding-top: 40px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
 
 }
 
 
 
 #signup {
-    background-color: rgba(114, 143, 143, 0.7);
     background-size: cover;
     background-position: 75%;
     padding: 20px 10% 0 10%;
     flex-grow: 1;
+
 }
 #signup p {
     color: black;
     font-family: var(--secondary-font);
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 #signup-form {
-    color: black;
+    color: var(--primary-color);
     font-weight: bold;
     background-color: transparent;
     height: 300px;
-}
-
-#signup-form>h4 {
-    color: var(--secondary-color);
+    border: 1px solid black;  /* Apply a solid black border around the form */
+    padding: 20px;  /* Add padding to space out the internal content from the border */
 }
 
 .text-input {
-    background-color: white;  /* Sets the background of the input fields to white */
-    color: black;             /* Sets the typed text color to black */
+    background-color: var(--secondary-color);
+    color: black;
     width: 90%;
-    height: 25px;
+    height: 30px; /* Pick one consistent height */
     margin: 5px 0 20px 0;
-    border: 1px solid black;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
 }
-.text-input {
-    background-color: var(--secondary-color);  /* Sets the background of the input fields to white */
-    color: black;             /* Sets the typed text color to black */
-    width: 90%;
-    height: 30px;
-    margin: 5px 0 20px 0;
-    border: 2px solid black;
-    transition: background-color 0.3s ease, border-color 0.3s ease; /* Adds transition effect */
-}
-
 
 .text-input:hover {
-      
-    border: solid var(--highlight-color);      /* Changes border color on hover */
-
+    border: solid black;     /* Changes border color on hover */
 }
-
 
 .form-group {
     display: flex;
+    flex-direction: row;
+    align-items: flex-start; /* Aligns items to the start vertically */
     justify-content: space-between;
 }
 
@@ -452,6 +442,10 @@ color:var(--highlight-color);
 .form-column:last-child {
     margin-right: 0;
 }
+.form-column label, .form-column input {
+    margin-bottom: 5px; /* Consistent bottom margin */
+}
+
 
 .join-button {
     margin-top: 20px;
@@ -462,3 +456,7 @@ color:var(--highlight-color);
     color: transparent;
     color: #fafafa;
 }
+#form-button {
+    margin-top: 20px; /* Adjust button position */
+}
+
