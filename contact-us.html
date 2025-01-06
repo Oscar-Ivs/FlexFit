@@ -88,12 +88,12 @@
                                 <div class="form-group">
                                     <div class="form-column">
                                         <label for="first-name">First Name</label><br>
-                                        <input type="text" id="first-name" name="first-name" class="text-input"
+                                        <input type="text" id="first-name" name="first-name" class="text-input" pattern="[A-Za-z ]+" title="Letters only"
                                             required><br>
                                     </div>
                                     <div class="form-column">
                                         <label for="last-name">Last Name</label><br>
-                                        <input type="text" id="last-name" name="last-name" class="text-input"
+                                        <input type="text" id="last-name" name="last-name" class="text-input" pattern="[A-Za-z ]+" title="Letters only"
                                             required><br>
                                     </div>
                                 </div>
@@ -105,9 +105,8 @@
                                     </div>
                                     <div class="form-column">
                                         <label for="phone" class="form-label">Phone number</label><br>
-                                        <input type="phone" id="phone" name="phone" type="number" class="text-input"
-                                            required><br>
-                                    </div>
+                                        <input type="number" id="phone" name="phone" class="text-input" required><br>
+                                    </div>                                   
                                 </div>
                                 <button type="submit" class="btn custom-button-filled ms-lg-3"
                                     id="form-button">Submit</button>
