@@ -22,6 +22,9 @@ h1, h2, h3, h4 {
 h2 {
     font-size: calc(12px + 0.9vw);
 }
+*, *::before, *::after {
+    box-sizing: border-box;
+}
 /* NavBar */
 #navbar {
     height: 82px;
@@ -339,6 +342,7 @@ color:var(--highlight-color);
     flex-direction: column;
     padding: 20px;
     align-items: flex-start;
+    box-sizing: content-box;
 }
 
 #right-1 {
@@ -346,8 +350,8 @@ color:var(--highlight-color);
     height: 100%;
     width: 100%;
     text-align: center;
-    padding-top: 40px;
-    margin-top: 50px;
+    padding-top: 90px;
+    margin-top: 0px;
     display: flex;
     flex-direction: column;
 
