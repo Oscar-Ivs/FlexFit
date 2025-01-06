@@ -34,19 +34,14 @@ h2 {
     background-color: #506774;
     font-size: 120%;  
 }
-.navbar-nav {
-    margin-right: 30px; /* Keeps the menu items pushed to the right */
-}
+
 /* Ensure the navbar is aligned to the right */
 #navbar .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-#navbar .navbar-nav {
-    margin-left: 5%;
-    margin-right: 5%;
-}
+
 
 #logo {
     font-family: var(--secondary-font);
@@ -463,6 +458,7 @@ color:var(--highlight-color);
     width: 100%;
     padding: 0;
     margin: 0;
+
 }
 
 iframe {
@@ -471,6 +467,7 @@ iframe {
     border: none;
     display: block;
 }
+
 
 /* Remove gutter */
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
