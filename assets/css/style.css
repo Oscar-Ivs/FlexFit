@@ -365,7 +365,7 @@ color:var(--highlight-color);
     background-size: cover;
     background-position: 75%;
     padding: 20px 10% 0 10%;
-    flex-grow: 1;
+    
 }
 
 #signup p {
@@ -378,12 +378,13 @@ color:var(--highlight-color);
 #signup-form {
     color: var(--primary-color);
     font-weight: bold;
+    font-size: 0.9rem;
     background-color: transparent;
-    height: 32vh;
+    height: 33vh;
     border: 1px solid black;  /* Apply a solid black border around the form */
     padding: 20px;  /* Add padding to space out the internal content from the border */
     margin-bottom: 0;
-    overflow: auto;
+
 }
 
 .text-input {
@@ -393,8 +394,9 @@ color:var(--highlight-color);
     height: 20px; /* height of fill in field */
     margin: 2px 0 12px 0;
     transition: background-color 0.3s ease, border-color 0.3s ease;
-    font-family: 0.8rem;
+    font-size: 0.8rem;
 }
+
 
 .text-input:hover {
     border: 1px solid black;     /* Changes border color on hover */
@@ -422,6 +424,7 @@ color:var(--highlight-color);
 
 #signup-form {
     padding: 10px; /* Reduced overall padding inside the form */
+    margin-bottom: 5px;
 }
 
 
@@ -436,7 +439,7 @@ color:var(--highlight-color);
 
 }
 #form-button {
-    margin-top: 20px; /* Adjust button position */
+    margin-top: 10px; /* Adjust button position */
     padding: 8px 16px; /* Smaller padding to reduce height */
     font-size: 0.8rem; /* Smaller font size if it suits the design */
     color: black;
