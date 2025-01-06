@@ -324,44 +324,7 @@ color:var(--highlight-color);
     width: 40vh;
 }
 
-/* Contact Section */
-#hero3 {
-
-}
-
-
-
-
-
-
-
-
-
-/* Footer */
-#contact {
-    background-color: #506774;
-    color: var(--secondary-color);
-    width: 100%;
-    margin-bottom: 0;
-}
-.contact-info {
-    font-size: 85%;
-    color: var(--highlight-color);
-}
-/* Footer table */
-#contact .table-dark * {
-    background-color: transparent;
-    color: var(--secondary-color)
-}
-.text-container {
-    font-size: 90%;
-    padding-top: 15px;
-    color: var(--highlight-color-light);
-}
-
-
-
-/* TEST */
+/* Contact-Us section */
 
 
 
@@ -494,4 +457,38 @@ color:var(--highlight-color);
     text-transform: lowercase; /* Make all text lowercase */
     font-variant: small-caps; /* Apply small caps */
 }
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+#contact {
+    background-color: #506774;
+    color: var(--secondary-color);
+    width: 100%;
+    margin-bottom: 0;
+}
+.contact-info {
+    font-size: 85%;
+    color: var(--highlight-color);
+}
+/* Footer table */
+#contact .table-dark * {
+    background-color: transparent;
+    color: var(--secondary-color)
+}
+.text-container {
+    font-size: 90%;
+    padding-top: 15px;
+    color: var(--highlight-color-light);
+}
+
+
+
 
