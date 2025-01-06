@@ -374,7 +374,7 @@ color:var(--highlight-color);
     color: var(--primary-color);
     font-weight: bold;
     background-color: transparent;
-    height: 260px;
+    height: 32vh;
     border: 1px solid black;  /* Apply a solid black border around the form */
     padding: 20px;  /* Add padding to space out the internal content from the border */
     margin-bottom: 0;
