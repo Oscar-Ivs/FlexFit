@@ -336,7 +336,7 @@ color:var(--highlight-color);
     background-image: url('../images/contact-hero-img.webp');
     background-size: cover;
     background-position: center;
-    height: 125vh;
+    height: 100%;
     display: flex;
     color:white;
     justify-content: center;
@@ -362,7 +362,7 @@ color:var(--highlight-color);
     clear: both;  /* Clears the float, ensuring that #signup starts below any floated content above it */
     background-size: cover;
     background-position: 75%;
-    padding: 20px 10% 0 10%;
+    padding: 20px 10% 10px 10%;
     
 }
 
@@ -378,10 +378,7 @@ color:var(--highlight-color);
     font-weight: bold;
     font-size: 0.9rem;
     background-color: transparent;
-    height: 33vh;
     border: 1px solid black;  /* Apply a solid black border around the form */
-    padding: 20px;  /* Add padding to space out the internal content from the border */
-    margin-bottom: 0;
 
 }
 
