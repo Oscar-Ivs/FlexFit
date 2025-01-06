@@ -34,6 +34,9 @@ h2 {
     background-color: #506774;
     font-size: 120%;  
 }
+.navbar-expand-md {
+    padding-right: 30px;
+}
 
 /* Ensure the navbar is aligned to the right */
 #navbar .container {
