@@ -9,6 +9,7 @@
     --secondary-color: #dfd8d8; /* light gray */
     --highlight-color: #3b0746; /* Purple */
     --highlight-color-light: #a890ad; /* light Purple */
+    
 }
 
 /* Global Styles */
@@ -370,7 +371,7 @@ color:var(--highlight-color);
 #signup p {
     color: black;
     font-family: var(--secondary-font);
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: 400;
 }
 
@@ -445,8 +446,9 @@ color:var(--highlight-color);
 #about-us {
     text-align: left;
     padding: 25px; /* Add padding for spacing */
-    font-size: 0.9rem;
+    font-size: calc(8px + 0.4rem);
 }
+
 
 .about-us-img {
     float: right;  /* Causes the image to float to the right */
