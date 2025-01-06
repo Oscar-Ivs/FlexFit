@@ -307,7 +307,6 @@ color:var(--highlight-color);
 .col-12.col-md-6 {
     justify-content: center;
     padding: 0; /* Ensures no padding within columns */
-    margin: -5px; /* Ensures no margin is affecting the width */
 }
 
 .hero-section h3 {
@@ -353,7 +352,7 @@ color:var(--highlight-color);
     text-align: center;
     padding-top: 128px;
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 0;
     display: flex;
     flex-direction: column;
 }
