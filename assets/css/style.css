@@ -34,8 +34,10 @@ h2 {
     background-color: #506774;
     font-size: 120%;  
 }
+
 .navbar-expand-md {
     padding-right: 30px;
+    padding-left: 30px;
 }
 
 /* Ensure the navbar is aligned to the right */
@@ -44,6 +46,7 @@ h2 {
     justify-content: space-between;
     align-items: center;
 }
+
 
 
 #logo {
