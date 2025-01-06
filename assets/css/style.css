@@ -466,8 +466,9 @@ color:var(--highlight-color);
 
 iframe {
     width: 100%;
-    height: 360px;
+    height: 340px;
     border: none;
+    display: block;
 }
 
 /* Remove gutter */
