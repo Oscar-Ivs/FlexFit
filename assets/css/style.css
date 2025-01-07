@@ -133,8 +133,9 @@ h2 {
     background-color: var(--secondary-color);
 }
 .carousel-section p {
-    padding: 20px;
+    padding: 25px;
 }
+
 
 /* Set a fixed height for the carousel container */
 #carouselExampleAutoplaying {
@@ -528,10 +529,11 @@ iframe {
    
 }
   @media screen and (min-width: 768px) and (max-width: 887px)
+  /* Adjust section-2 and section-3 at specific screen size to fill the empty hero img gaps */
   {
-
 #section-2, #section-3 {
         height: 100%;
     }
 }
+
   
