@@ -40,15 +40,6 @@ h2 {
     padding-left: 30px;
 }
 
-/* Ensure the navbar is aligned to the right */
-#navbar .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-
-
 #logo {
     font-family: var(--secondary-font);
     font-weight: bold;
@@ -67,6 +58,7 @@ h2 {
     color:var(--highlight-color-light); /* Ensure the active link is hightlight color light */
     font-weight: bold; /* Make the text bold */
 }
+
 /* Button */
 
 .custom-button-filled {
@@ -330,8 +322,6 @@ color:var(--highlight-color);
 
 /* Contact-Us section */
 
-
-
 #left-1 {
     background-image: url('../images/contact-hero-img.webp');
     background-size: cover;
@@ -357,7 +347,6 @@ color:var(--highlight-color);
     display: flex;
     flex-direction: column;
 }
-
 
 
 #signup {
@@ -424,8 +413,6 @@ color:var(--highlight-color);
     margin-bottom: 5px;
 }
 
-
-
 .join-button {
     margin-top: 20px;
     border-radius: 2px;
@@ -442,13 +429,11 @@ color:var(--highlight-color);
     color: black;
     }
     
-
 #about-us {
     text-align: left;
     padding: 25px; /* Add padding for spacing */
     font-size: calc(8px + 0.4rem);
 }
-
 
 .about-us-img {
     float: right;  /* Causes the image to float to the right */
@@ -464,8 +449,6 @@ color:var(--highlight-color);
     width: 100%;
     padding: 0;
     margin: 10px 0 0 0;
-    
-
 }
 
 iframe {
@@ -475,25 +458,12 @@ iframe {
     display: block;
 }
 
-
 /* Remove gutter */
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
     --bs-gutter-x: 0 !important; /* Set gutter to 0 */
     padding-right: 0 !important; /* Remove right padding */
     padding-left: 0 !important; /* Remove left padding */
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Footer */
 #contact {
@@ -517,6 +487,16 @@ iframe {
     color: var(--highlight-color-light);
 }
 
+/* Medium devices (tablets, 768px and up) */
+@media screen and (max-width: 768px)
+ {
+    .navbar-nav {
+        /* Navigation menu when collapsed */
+        background-color: #3b0746;
+        margin-top: -6px;
+        padding-bottom: 20px;
 
+    }
+}
 
 
