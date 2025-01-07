@@ -487,8 +487,8 @@ iframe {
     color: var(--highlight-color-light);
 }
 
-/* Medium devices (tablets, 768px and up) */
-@media screen and (max-width: 768px)
+/* Medium devices (tablets, 775px and up) */
+@media screen and (max-width: 767px)
  {
     .navbar-nav {
         /* Navigation menu when collapsed */
@@ -499,6 +499,9 @@ iframe {
     }
     .logo {
        margin-top: -5px;
+    }
+    #navbar {
+        width: 100vw;
     }
 }
 
