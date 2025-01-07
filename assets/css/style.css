@@ -493,10 +493,12 @@ iframe {
     .navbar-nav {
         /* Navigation menu when collapsed */
         background-image: linear-gradient(to bottom, rgba(80,103,116, 1) 0%, rgba(114, 143, 143, 0.8) 100%);
-        margin-top: -6px;
+        margin-top: 0;
         padding-bottom: 20px;
         justify-content: center;
-
+    }
+    .logo {
+       margin-top: -5px;
     }
 }
 
