@@ -510,7 +510,7 @@ iframe {
 }
 
 
-/* Medium devices (tablets, 775px and up) */
+/* Medium devices and smaller screens (tablets, 775px and down) */
 @media screen and (max-width: 767px)
  {
     .navbar-nav {
@@ -526,8 +526,9 @@ iframe {
     #navbar {
         width: 100vw;
     }
-   
 }
+
+/* Specific screen size */
   @media screen and (min-width: 768px) and (max-width: 887px)
   /* Adjust section-2 and section-3 at specific screen size to fill the empty hero img gaps */
   {
@@ -535,5 +536,3 @@ iframe {
         height: 100%;
     }
 }
-
-  
