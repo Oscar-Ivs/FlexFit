@@ -487,6 +487,26 @@ iframe {
     color: var(--highlight-color-light);
 }
 
+/* Modal for contact us form sucessful sent aproval */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    margin-top: 30px;
+    width: 90%;
+    height: 100%;
+}
+.modal-content {
+    background-color: rgba(114, 143, 143, 0.9);
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid var(--highlight-color);
+    width: 60%;
+    font-family: var(--secondary-font);
+}
+
+
 /* Medium devices (tablets, 775px and up) */
 @media screen and (max-width: 767px)
  {
