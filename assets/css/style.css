@@ -123,7 +123,6 @@ h2 {
     font-family: var(--secondary-font);
     font-size: calc(1rem + 0.9vw);
     color: white;
-    text-align: left;
 }
 .container {
     text-align: center;
