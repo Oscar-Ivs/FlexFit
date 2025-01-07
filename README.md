@@ -153,7 +153,6 @@ By employing this structured approach to testing, including validation through W
 
 
 - **JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links:**
-```javascript
 // JavaScript code example
 <script>
     document
@@ -175,6 +174,40 @@ By employing this structured approach to testing, including validation through W
             });
         });
 </script>
+
+-**JavaScript code to display message when "Contact Us" form successful submited:**
+<script>
+                    document.getElementById('signup-form').addEventListener('submit', function (event) {
+                        event.preventDefault(); // Prevent the default form submission
+
+                        // Display the modal
+                        var modal = document.getElementById("myModal");
+                        var span = document.getElementsByClassName("close")[0]; // Get the element that closes the modal
+                        modal.style.display = "block";
+
+                        console.log("Modal displayed");
+
+                        // Debugging: Check if span is correctly retrieved
+                        if (span) {
+                            span.onclick = function () {
+                                modal.style.display = "none";
+                                document.getElementById('signup-form').reset(); // Reset the form fields
+                                console.log("Span clicked, modal closed, and form reset");
+                            }
+                        } else {
+                            console.error("Close button not found");
+                        }
+
+                        // When the user clicks anywhere outside of the modal content, close it
+                        window.onclick = function (event) {
+                            if (event.target === modal) {
+                                modal.style.display = "none";
+                                document.getElementById('signup-form').reset(); // Reset the form fields
+                                console.log("Clicked outside modal, modal closed, and form reset");
+                            }
+                        }
+                    });
+                </script>
 
 
 ## Contact Information
