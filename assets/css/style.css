@@ -121,9 +121,9 @@ h2 {
     top: 75%;     /* Adjust to 75% possition from top*/
     left: 5%;    /* Left possition */
     font-family: var(--secondary-font);
-    font-size: 2.8vh;  /* Use 'vh' for font size to scale with viewport */
+    font-size: calc(1rem + 0.9vw);
     color: white;
-    text-align: center;
+    text-align: left;
 }
 .container {
     text-align: center;
