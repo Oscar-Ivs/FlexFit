@@ -239,7 +239,7 @@ color:var(--highlight-color);
 }
 #section-1 {
     background-color:rgba(114, 143, 143, 0.7);
-    height: calc(228px + 24vw);
+    height: 100%;
     width: 100%;
     text-align: center;
     color: black;
@@ -251,7 +251,7 @@ color:var(--highlight-color);
     background-image: url('../images/timetables-1-img.webp');
     background-size: cover;
     background-position: center;
-    height: calc(228px + 24vw);
+    height: 100%;
     display: flex;
     color:white;
     justify-content: flex-start;
@@ -271,7 +271,7 @@ color:var(--highlight-color);
     background-image: url('../images/timetables-2-img.webp');
     background-size: cover;
     background-position: center;
-    height: calc(228px + 24vw);
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -289,7 +289,7 @@ color:var(--highlight-color);
 
 #section-4 {
     background-color: rgba(114, 143, 143, 0.7);
-    height: calc(228px + 24vw);
+    height: 100%;
     width: 100%;
     text-align: center;
     color: black;
