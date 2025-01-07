@@ -143,6 +143,7 @@ By employing this structured approach to testing, including validation through W
 - **Java Script to automatically update the copyright year:**
 ```javascript
 // JavaScript code example
+```javascript
 <script>
     document.addEventListener('DOMContentLoaded', function () {
         const year = new Date().getFullYear(); // Get current year
@@ -150,10 +151,12 @@ By employing this structured approach to testing, including validation through W
         copyright.innerHTML = `&copy; ${year} FlexFit GYM. All rights reserved.`; // Set text dynamically
     });
 </script>
+```
 
 
 - **JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links:**
 // JavaScript code example
+```javascript
 <script>
     document
         .querySelectorAll(".navbar-collapse .nav-link")
@@ -174,8 +177,10 @@ By employing this structured approach to testing, including validation through W
             });
         });
 </script>
+```
 
 -**JavaScript code to display message when "Contact Us" form successful submited:**
+```javascript
 <script>
                     document.getElementById('signup-form').addEventListener('submit', function (event) {
                         event.preventDefault(); // Prevent the default form submission
@@ -207,8 +212,9 @@ By employing this structured approach to testing, including validation through W
                             }
                         }
                     });
-                </script>
-                ###
+</script>
+```
+              
 
 
 ## Contact Information
