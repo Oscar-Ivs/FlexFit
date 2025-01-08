@@ -337,7 +337,7 @@ color:var(--highlight-color);
     background-image: url('../images/contact-hero-img.webp');
     background-size: cover;
     background-position: center;
-    height: 96%;
+    height: 97%;
     display: flex;
     color:white;
     justify-content: center;
@@ -443,7 +443,8 @@ color:var(--highlight-color);
 #about-us {
     text-align: left;
     padding: 25px; /* Add padding for spacing */
-    font-size: calc(8px + 0.4rem);
+    font-size: calc(9px + 0.4rem);
+    font-weight: 500;
 }
 
 .about-us-img {
