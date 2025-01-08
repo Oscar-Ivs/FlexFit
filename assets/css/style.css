@@ -9,6 +9,7 @@
     --secondary-color: #dfd8d8; /* light gray */
     --highlight-color: #3b0746; /* Purple */
     --highlight-color-light: #a890ad; /* light Purple */
+    --bs-gutter-x: 0;
     
 }
 
