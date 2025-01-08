@@ -261,11 +261,15 @@ color:var(--highlight-color);
     flex-direction: column;
     padding: 20px;
     align-items: flex-start;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); /* Text shadow to increase visibility */
+    
 }
 #section-2 ul {
     padding-left: 20px;
     padding-top: 25px;
     width: 35vh;
+    background-color: rgba(114, 143, 143, 0.5); /*Transparent background color to increase contrast */
+
 }
 #section-2 li {
     margin-bottom: 25px;
@@ -280,11 +284,14 @@ color:var(--highlight-color);
     align-items: flex-start;
     padding: 20px;
     color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); /* Text shadow to increase visibility */
+
 }
 #section-3 ul {
     padding-left: 20px;
     padding-top: 25px;
     width: 35vh;
+    background-color: rgba(114, 143, 143, 0.5); /*Transparent background color to increase contrast */
 }
 #section-3 li {
        margin-top: 20px;
@@ -308,6 +315,7 @@ color:var(--highlight-color);
 .hero-section h3 {
     text-decoration: underline;
 }
+
 /* Bootcamps table */
 .table2 {
     background-color:transparent; /* Make table background transparent */
