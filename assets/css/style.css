@@ -268,7 +268,7 @@ color:var(--highlight-color);
     padding-left: 20px;
     padding-top: 25px;
     width: 35vh;
-    background-color: rgba(114, 143, 143, 0.5); /*Transparent background color to increase contrast */
+    background-color: rgba(114, 143, 143, 0.4); /*Transparent background color to increase contrast */
 
 }
 #section-2 li {
