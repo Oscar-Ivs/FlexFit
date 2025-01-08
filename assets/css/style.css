@@ -256,19 +256,18 @@ color:var(--highlight-color);
     background-size: cover;
     background-position: center;
     height: 57vh;
-    
     color:white;
     justify-content: flex-start;
     flex-direction: column;
-    padding: 20px;
+    padding: 15px;
     align-items: flex-start;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); /* Text shadow to increase visibility */
     
 }
 #section-2 ul {
     padding-left: 20px;
-    padding-top: 25px;
-    width: 35vh;
+    padding-top: 20px;
+    width: 60%;
     background-color: rgba(114, 143, 143, 0.4); /*Transparent background color to increase contrast */
 
 }
@@ -283,15 +282,16 @@ color:var(--highlight-color);
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 20px;
+    padding: 15px;
     color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); /* Text shadow to increase visibility */
 
 }
 #section-3 ul {
     padding-left: 20px;
-    padding-top: 25px;
-    width: 35vh;
+    padding-top: 20px;
+    width: 60%;
+    
     background-color: rgba(114, 143, 143, 0.5); /*Transparent background color to increase contrast */
 }
 #section-3 li {
@@ -327,9 +327,6 @@ color:var(--highlight-color);
 }
 .table2 tr {
     border-bottom: 1px solid gray;
-}
-#section-2 #section-3 .text {
-    width: 40vh;
 }
 
 /* Contact-Us section */
@@ -539,6 +536,7 @@ iframe {
     }
 }
 
+
 /* Specific screen size */
   @media screen and (min-width: 768px) and (max-width: 887px)
   /* Adjust section-2 and section-3 at specific screen size to fill the empty hero img gaps */
@@ -546,4 +544,4 @@ iframe {
 #section-2, #section-3 {
         height: 100%;
     }
-}
+  }
