@@ -516,6 +516,9 @@ iframe {
     width: 60%;
     font-family: var(--secondary-font);
 }
+.row {
+    --bs-gutter-x:0;
+}
 
 
 /* Medium devices and smaller screens (tablets, 775px and down) */
