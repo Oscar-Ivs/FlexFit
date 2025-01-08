@@ -192,6 +192,7 @@ h2 {
     align-items: center; /* This centers the items vertically */
     background-color: rgba(114, 143, 143, 0.8); /* background color */
     height: 170px; /* Maintains height */
+    width: 100%;
 }
 .membership h2 {
 margin-top: 140px;
