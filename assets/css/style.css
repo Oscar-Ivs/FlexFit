@@ -248,7 +248,7 @@ color:var(--highlight-color);
     text-align: center;
     color: black;
     padding: 20px;
-    font-size: calc(10px + 0.7vh);
+    font-size: calc(9px + 0.7vh);
 }
 
 #section-2 {
@@ -256,7 +256,7 @@ color:var(--highlight-color);
     background-size: cover;
     background-position: center;
     height: 57vh;
-    display: flex;
+    
     color:white;
     justify-content: flex-start;
     flex-direction: column;
@@ -305,7 +305,7 @@ color:var(--highlight-color);
     text-align: center;
     color: black;
     padding: 20px;
-    font-size: calc(10px + 0.7vh);
+    font-size: calc(9px + 0.7vh);
 }
 
 .col-12.col-md-6 {
@@ -476,6 +476,7 @@ iframe {
     --bs-gutter-x: 0 !important; /* Set gutter to 0 */
     padding-right: 0 !important; /* Remove right padding */
     padding-left: 0 !important; /* Remove left padding */
+    width: 100% !important;
 }
 
 /* Footer */
