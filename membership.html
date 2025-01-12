@@ -207,6 +207,36 @@
                 copyright.innerHTML = `&copy; ${year} FlexFit GYM. All rights reserved.`; // Set text dynamically
             });
         </script>
+        <!-- JavaScript for Subscription Modal -->
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                var subscribeForm = document.getElementById('subscribe-form');
+                var subscriptionModal = new bootstrap.Modal(document.getElementById('subscriptionModal'));
+                var thankYouModal = new bootstrap.Modal(document.getElementById('thankYouModal'));
+            
+                subscribeForm.addEventListener('submit', function(event) {
+                    event.preventDefault(); // Prevent the default form submission
+            
+                    // Close the subscription modal first
+                    subscriptionModal.hide();
+            
+                    // You might want to delay the opening of the thank you modal to ensure the transition is smooth
+                    setTimeout(function() {
+                        thankYouModal.show();
+                    }, 500); // Delay of 500 milliseconds
+            
+                    // Reset the form fields (if necessary, can be done before or after showing the thank you modal)
+                    subscribeForm.reset();
+            
+                    console.log("Subscription modal closed and thank you modal displayed.");
+                });
+            
+                // Optional: Listen to the 'hidden.bs.modal' event to open the thank you modal right after the subscription modal completely closes
+                $('#subscriptionModal').on('hidden.bs.modal', function () {
+                    thankYouModal.show();
+                });
+            });
+            </script>
 </body>
 
 </html>
