@@ -515,7 +515,7 @@ iframe {
     padding: 0;
 }
 .modal-body {
-    font-size:calc(9px + 0.8vw);
+    font-size:calc(8px + 0.7vw);
 }
 
 .form-control {
