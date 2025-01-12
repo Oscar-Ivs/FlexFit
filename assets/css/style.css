@@ -185,8 +185,6 @@ h2 {
     color: var(--highlight-color);
 }
 
-
-
 /* Membership Section */
 .membership {
     display: flex; /* Using flexbox to align children */
@@ -502,6 +500,18 @@ iframe {
 }
 .row {
     --bs-gutter-x:0;
+}
+
+/* Modal for subscription button */
+.modal-content {
+    font-family: var(--primary-font);
+    font-weight: 700;
+    color: black;
+}
+.modal-content h5 {
+    font-family: var(--secondary-font);
+    font-size: calc(9px + 0.8vw);
+    color: black;
 }
 
 
