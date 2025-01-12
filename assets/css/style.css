@@ -505,18 +505,18 @@ iframe {
 /* Modal for subscription button */
 .modal-content {
     font-family: var(--primary-font);
-    font-weight: 700;
+    font-weight: 550;
     color: black;
     padding: 0;
 }
 .modal-content h5 {
     font-family: var(--secondary-font);
     font-size: calc(9px + 0.8vw);
-    color: black;
     padding: 0;
 }
 .modal-body {
-    font-size:calc(9px + 0.8vw) ;
+    font-size:calc(9px + 0.8vw);
+
 }
 
 
