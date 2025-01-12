@@ -516,8 +516,12 @@ iframe {
 }
 .modal-body {
     font-size:calc(9px + 0.8vw);
-
 }
+
+.form-control {
+background-color:var(--secondary-color)
+}
+
 
 
 /* Medium devices and smaller screens (tablets, 775px and down) */
