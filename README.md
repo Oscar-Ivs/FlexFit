@@ -64,7 +64,7 @@ FlexFit Gym's website is designed to provide a comprehensive online presence for
 - **Tasks**:
   - Integrate a sign-up form into the website's footer using Bootstrap forms.
 
-## Wireframes
+## wireframe
 
 ### Desktop Version index.html
 ![Desktop Wireframe](assets/images/wireframes/index-desktop-wireframe.png)
@@ -179,7 +179,7 @@ By employing this structured approach to testing, including validation through W
 </script>
 ```
 
--**JavaScript code to display message when "Contact Us" form successful submited:**
+-**JavaScript code to display message when "Contact Us" form successful submitted:**
 ```javascript
 <script>
                     document.getElementById('signup-form').addEventListener('submit', function (event) {
@@ -214,7 +214,7 @@ By employing this structured approach to testing, including validation through W
                     });
 </script>
 ```
--**JavaScript code to display message when "Subscribe" form is sucessful submited:**
+-**JavaScript code to display message when "Subscribe" form is successful submitted:**
 ```javascript              
 <script>
             document.addEventListener('DOMContentLoaded', function() {
