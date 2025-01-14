@@ -520,7 +520,7 @@ iframe {
 }
 .modal-content h5 {
     font-family: var(--secondary-font);
-    font-size: calc(9px + 0.8vw); /* Dynamic font size */
+    font-size: calc(8px + 0.8vw); /* Dynamic font size */
     padding: 0;
 }
 .modal-body {
@@ -556,4 +556,9 @@ background-color:var(--secondary-color)
 #section-2, #section-3 {
         height: 100%;
     }
+  }
+  @media screen and (min-width: 1200px) {
+.modal-content h5 {
+font-size: 1.2rem;
+}
   }
