@@ -526,6 +526,13 @@ iframe {
 .modal-body {
     font-size:calc(8px + 0.7vw);
 }
+/* Contact form modal message */
+#myModal {
+    width: 75%; /* Message width of */
+    top: 75vh; /* Adjust message possition from top */
+    left: 50vw;
+    transform: translate(-50%, -50%); /* Center message */
+}
 
 .form-control {
 background-color:var(--secondary-color)
