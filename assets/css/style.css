@@ -9,28 +9,29 @@
     --secondary-color: #dfd8d8; /* light gray */
     --highlight-color: #3b0746; /* Purple */
     --highlight-color-light: #a890ad; /* light Purple */
-    --bs-gutter-x: 0;
+    --bs-gutter-x: 0; /* Removes horizontal gutter space created by Bootstrap */
     
 }
 
 /* Global Styles */
 body {
-    font-family: var(--primary-font);
+    font-family: var(--primary-font); /* Font style for regular text */
 }
 h1, h2, h3, h4 {
-    font-family: var(--secondary-font);
+    font-family: var(--secondary-font); /* Font style for headings */
 }
-/* Minimum of 16px plus a small percentage of the viewport width */
+/* Dynamic font size depending on screen size */
 h2 {
     font-size: calc(12px + 0.9vw);
 }
+/* Makes it easier to create layouts, avoiding unexpected box sizes. */
 *, *::before, *::after {
     box-sizing: border-box;
 }
 /* NavBar */
 #navbar {
     height: 82px;
-    box-shadow: 0 2px 2px var(--secondary-color);
+    box-shadow: 0 2px 2px var(--secondary-color); /* Box shadow to seperate form sub-navbar */
     width: 100%;
     background-color: #506774;
     font-size: 120%;
@@ -42,16 +43,18 @@ h2 {
     padding-left: 30px;
 }
 
+/* Navbar Text/links */
 #logo {
     font-family: var(--secondary-font);
     font-weight: bold;
     margin-left: 300px;
     color: black;
 }
-
+/* Navbar link section */
 #navbar .navbar-nav .nav-link {
     color: white; /* Set the text color to white */
 }
+/* Navbar link section with hover efect */
 #navbar .navbar-nav .nav-link:hover {
     color:var(--highlight-color)
 }
@@ -61,14 +64,14 @@ h2 {
     font-weight: bold; /* Make the text bold */
 }
 
-/* Button */
+/* Globa Button settings */
 
 .custom-button-filled {
     border: 2px solid black;
     background-color: transparent;
     color: white;
 }
-
+/* Button with hover effect */
 .custom-button-filled:hover {
     border: 2px solid black;
     background-color: #3b8484;
@@ -85,7 +88,7 @@ h2 {
     background-color: var(--highlight-color);
     color: black
 }
-
+/* Sub-navbar */
 #sub-navbar {
     display: flex;
     justify-content: center;
@@ -96,6 +99,7 @@ h2 {
     background-color: #506774;
     box-shadow: 0 2px 2px var(--secondary-color);
 }
+/* Sub-navbar text */
 #sub-navbar H1 {
     color: black;
     position: relative;
@@ -123,13 +127,14 @@ h2 {
     top: 75%;     /* Adjust to 75% possition from top*/
     left: 5%;    /* Left possition */
     font-family: var(--secondary-font);
-    font-size: calc(1rem + 0.9vw);
+    font-size: calc(1rem + 0.9vw); /* Dynamic font size depends on screen size */
     color: white;
 }
 .container {
     text-align: center;
 }
 
+/* Carousel section */
 .carousel-section {
     text-align: center;
     background-color: var(--secondary-color);
@@ -163,7 +168,7 @@ h2 {
 #contact .social-links i {
     color: var(--secondary-color);
     font-size: 2.4rem;
-    -webkit-transition: color 0.3s ease-in-out;
+    -webkit-transition: color 0.3s ease-in-out; /* Hover effect delay */
     -o-transition: color 0.3s ease-in-out;
     transition: color 0.3s ease-in-out;
 }
@@ -181,7 +186,7 @@ h2 {
     margin-bottom: 20px;
     font-size: 120%
 }
-
+/* Hover effect for Media Links */
 #contact .social-links i:hover {
     color: var(--highlight-color);
 }
@@ -194,6 +199,7 @@ h2 {
     height: 170px; /* Maintains height */
     width: 100%;
 }
+/* Membershib sub-navbar possition & text color */
 .membership h2 {
 margin-top: 140px;
 color:var(--highlight-color);
@@ -223,8 +229,9 @@ color:var(--highlight-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-weight: 650;
+    font-weight: 650; /* Make text bolder to increase visibility */
 }
+/* Hover effect for Plans & Prices text */
 .plans-grid > div:hover {
     color: var(--secondary-color);
 }
@@ -241,33 +248,34 @@ color:var(--highlight-color);
     box-shadow: 0 3px 3px var(--highlight-color-light);
     justify-content: center;
 }
+/* Timetables section */
 #section-1 {
-    background-color:rgba(114, 143, 143, 0.7);
+    background-color:rgba(114, 143, 143, 0.7); /* Bacground color with 70% opacity */
     height: 100%;
     width: 100%;
     text-align: center;
     color: black;
     padding: 20px;
-    font-size: calc(9px + 0.7vh);
+    font-size: calc(9px + 0.7vh); /* Dynamic font size to keep text size proportional on smaller screens */
 }
 
 #section-2 {
     background-image: url('../images/timetables-1-img.webp');
     background-size: cover;
     background-position: center;
-    height: 57vh;
+    height: 57vh; /* Fixed height size */
     color:white;
-    justify-content: flex-start;
+    justify-content: flex-start; /* Align image from the left */
     flex-direction: column;
     padding: 15px;
-    align-items: flex-start;
+    align-items: flex-start; /* Align text from the left */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); /* Text shadow to increase visibility */
     
 }
 #section-2 ul {
     padding-left: 20px;
     padding-top: 20px;
-    width: 60%;
+    width: 60%; /* Text column width */
     background-color: rgba(114, 143, 143, 0.4); /*Transparent background color to increase contrast */
 
 }
@@ -278,7 +286,7 @@ color:var(--highlight-color);
     background-image: url('../images/timetables-2-img.webp');
     background-size: cover;
     background-position: center;
-    height: 57vh;
+    height: 57vh; /* Fixed hero image height */
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -290,7 +298,7 @@ color:var(--highlight-color);
 #section-3 ul {
     padding-left: 20px;
     padding-top: 20px;
-    width: 60%;
+    width: 60%; /* Text column width */
     
     background-color: rgba(114, 143, 143, 0.5); /*Transparent background color to increase contrast */
 }
@@ -305,7 +313,7 @@ color:var(--highlight-color);
     text-align: center;
     color: black;
     padding: 20px;
-    font-size: calc(9px + 0.7vh);
+    font-size: calc(9px + 0.7vh); /* Dynamic font size */
 }
 
 .col-12.col-md-6 {
@@ -314,7 +322,7 @@ color:var(--highlight-color);
 }
 
 .hero-section h3 {
-    text-decoration: underline;
+    text-decoration: underline; /* Underline H3 text insection-1 and section-4 */
 }
 
 /* Bootcamps table */
@@ -335,7 +343,7 @@ color:var(--highlight-color);
     background-image: url('../images/contact-hero-img.webp');
     background-size: cover;
     background-position: center;
-    height: 97%;
+    height: 97%; /* Adjust hero img height to fit in with surounded sections */
     display: flex;
     color:white;
     justify-content: center;
@@ -346,7 +354,7 @@ color:var(--highlight-color);
 }
 
 #right-1 {
-    background-image: linear-gradient(to bottom, rgba(114, 143, 143, 1) 0%, rgba(114, 143, 143, 0.2) 100%);
+    background-image: linear-gradient(to bottom, rgba(114, 143, 143, 1) 0%, rgba(114, 143, 143, 0.2) 100%); /* background color with gradient opacity */
     height: 100%;
     width: 100%;
     text-align: center;
@@ -357,15 +365,15 @@ color:var(--highlight-color);
     flex-direction: column;
 }
 
-
+/* Contact Us form */
 #signup {
-    clear: both;  /* Clears the float, ensuring that #signup starts below any floated content above it */
+    clear: both;  /* Clears the float, ensuring that #Submit starts below any floated content above it */
     background-size: cover;
     background-position: 75%;
     padding: 20px 10% 10px 10%;
     
 }
-
+/* Contact Us form text settings */
 #signup p {
     color: black;
     font-family: var(--secondary-font);
@@ -388,13 +396,13 @@ color:var(--highlight-color);
     width: 65%;
     height: 20px; /* height of fill in field */
     margin: 2px 0 12px 0;
-    transition: background-color 0.3s ease, border-color 0.3s ease;
+    transition: background-color 0.3s ease, border-color 0.3s ease; /* Fill in fields with delay hover effect */
     font-size: 0.8rem;
 }
 
 
 .text-input:hover {
-    border: 1px solid black;     /* Changes border color on hover */
+    border: 1px solid black; /* Changes border color on hover */
 }
 
 .form-group {
@@ -426,23 +434,23 @@ color:var(--highlight-color);
 #form-button {
     margin-top: 10px; /* Adjust button position */
     padding: 8px 16px; /* Smaller padding to reduce height */
-    font-size: 0.8rem; /* Smaller font size if it suits the design */
+    font-size: 0.8rem; /* Smaller font size to suit the design */
     color: black;
     }
     
 #about-us {
     text-align: left;
     padding: 25px; /* Add padding for spacing */
-    font-size: calc(9px + 0.4rem);
+    font-size: calc(9px + 0.4rem); /* Dynamic font size */
     font-weight: 500;
 }
 
 .about-us-img {
     float: right;  /* Causes the image to float to the right */
-    width: 200px;  /* Adjust the width as necessary */
+    width: 200px;  /* Adjust the width */
     height: auto;  /* Maintains the aspect ratio */
     margin-left: 18px;  /* Adds space between the text and the image */
-    margin-bottom: 10px;  /* Optional: adds space below the image if needed */
+    margin-bottom: 10px;  /* Adds space below the image if needed */
 }
 
 /* Google Maps */
@@ -460,7 +468,7 @@ iframe {
     display: block;
 }
 
-/* Remove gutter */
+/* Remove gutter to push bootstrap container content full width*/
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
     --bs-gutter-x: 0 !important; /* Set gutter to 0 */
     padding-right: 0 !important; /* Remove right padding */
@@ -512,7 +520,7 @@ iframe {
 }
 .modal-content h5 {
     font-family: var(--secondary-font);
-    font-size: calc(9px + 0.8vw);
+    font-size: calc(9px + 0.8vw); /* Dynamic font size */
     padding: 0;
 }
 .modal-body {
@@ -522,8 +530,6 @@ iframe {
 .form-control {
 background-color:var(--secondary-color)
 }
-
-
 
 /* Medium devices and smaller screens (tablets, 775px and down) */
 @media screen and (max-width: 767px)
@@ -542,7 +548,6 @@ background-color:var(--secondary-color)
         width: 100vw;
     }
 }
-
 
 /* Specific screen size */
   @media screen and (min-width: 768px) and (max-width: 887px)
