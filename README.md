@@ -62,31 +62,39 @@ FlexFit Gym's website is designed to provide a comprehensive online presence for
 - **Acceptance Criteria**:
   - A newsletter subscription form is easily accessible on every page.
 - **Tasks**:
-  - Integrate a sign-up form into the website's footer using Bootstrap forms.
+  - Integrate a sign-up form into the website's navbar using Bootstrap modal.
 
 ## wireframe
 
 ### Desktop Version index.html
 ![Desktop Wireframe](assets/images/wireframes/index-desktop-wireframe.png)
+---
 
 ### Tablet & Mobile Version index.html
 ![Tablet Wireframe](assets/images/wireframes/index-tablet-mobile-wireframe.png)
+---
 
 ### Desktop Version membership.html
 ![Desktop Wireframe](assets/images/wireframes/membership-desktop-wireframe.png)
+---
 
 ### Tablet & Mobile Version membership.html
 ![Tablet Wireframe](assets/images/wireframes/membership-tablet-mobile-wireframe.png)
+---
 ### Desktop Version timetable.html
 ![Desktop Wireframe](assets/images/wireframes/timetable-desktop-wireframe.png)
+---
 
 ### Tablet & Mobile Version timetable.html
 ![Tablet Wireframe](assets/images/wireframes/timetable-tablet-mobile-wireframe.png)
+---
 ### Desktop Version contact.html
 ![Desktop Wireframe](assets/images/wireframes/contact-desktop-wireframe.png)
+---
 
 ### Tablet & Mobile Version contact.html
 ![Tablet Wireframe](assets/images/wireframes/contact-tablet-mobile-wireframe.png)
+---
 
 ## Webpage Testing Strategy
 
@@ -131,7 +139,7 @@ To ensure that the FlexFit Gym website offers a seamless and efficient user expe
   - Verify that layouts appear as intended and that all functionalities work.
 
 ### Reporting and Fixes
-- **Bug Reporting:** Any issues found during testing will be documented with screenshots and detailed descriptions.
+- **Bug Reporting:** Any issues found during testing will be documented.
 - **Resolution:** Documented bugs will be prioritized based on their impact and fixed accordingly. Regression testing will be conducted post-fix to ensure no new issues have been introduced.
 
 ### Continuous Testing
