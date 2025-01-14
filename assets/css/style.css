@@ -275,7 +275,7 @@ color:var(--highlight-color);
 #section-2 ul {
     padding-left: 20px;
     padding-top: 20px;
-    width: 60%; /* Text column width */
+    width: 50%; /* Text column width */
     background-color: rgba(114, 143, 143, 0.4); /*Transparent background color to increase contrast */
 
 }
@@ -538,6 +538,17 @@ iframe {
 background-color:var(--secondary-color)
 }
 
+/* Smaller screens */
+@media screen and (max-width: 370px)
+{
+    #section-2 ul {
+        width: 100% !important;
+    }
+    #section-3 ul {
+        width: 100% !important;
+    }
+}
+
 /* Medium devices and smaller screens (tablets, 775px and down) */
 @media screen and (max-width: 767px)
  {
@@ -553,6 +564,12 @@ background-color:var(--secondary-color)
     }
     #navbar {
         width: 100vw;
+    }
+    #section-2 ul {
+        width: 65%;
+    }
+    #section-3 ul {
+        width: 75%;
     }
 }
 
