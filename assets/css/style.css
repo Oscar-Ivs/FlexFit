@@ -506,18 +506,14 @@ iframe {
     border: 1px solid var(--highlight-color);
     width: 60%;
     font-family: var(--secondary-font);
+    font-family: var(--primary-font);
+    font-weight: 550;
+    color: black;
 }
 .row {
     --bs-gutter-x:0;
 }
 
-/* Modal for subscription button */
-.modal-content {
-    font-family: var(--primary-font);
-    font-weight: 550;
-    color: black;
-    padding: 0;
-}
 .modal-content h5 {
     font-family: var(--secondary-font);
     font-size: calc(8px + 0.8vw); /* Dynamic font size */
