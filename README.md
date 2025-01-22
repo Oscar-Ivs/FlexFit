@@ -255,5 +255,5 @@ By employing this structured approach to testing, including validation through W
             </script>
             ```
 
-### Contact Information
+-**Contact Information**
 For more information, please contact us at [hk57agob@students.codeinstitute.net](hk57agob@students.codeinstitute.net).
