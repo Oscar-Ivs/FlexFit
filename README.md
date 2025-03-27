@@ -169,8 +169,39 @@ By employing this structured approach to testing, including validation through W
 
 ![Poor Best practices](assets/images/Lighthouse/Best-practices.png)
 
+# Other bug fixes:
 
-### Java Scripts by 3rd party
+I encountered a problem where I was getting unwanted spacings on different screen sizes.
+### Removed Bootstrap gutters.
+I found out that by default horizontal gutters provided by Bootstrap created unnecessary spacing and disrupted the intended layout consistency, particularly on smaller screens. I found the way how to fix this by applying following CSS rule:
+> --bs-gutter-x: 0; /* Removes horizontal gutter space created by Bootstrap */
+
+
+the horizontal padding between columns was removed, resulting in a cleaner, tighter layout, optimized especially for mobile responsiveness.
+
+### Div element or hero-image on small screens takes too much space:
+I found out in Bootstrap documentation that there is an option to hide elements.
+I used this one to hide her-image on small screens:
+> div class="col-12 col-md-6 d-none d-md-block"
+
+### Adjusted CSS for certain screen sizes:
+While testing on different type and size devices doesn't cause any problems, however in chrome DevTools gradiently decreasing screen size I noticed in Timetables.html that all 4 sections doesn't respond as should leaving gaps at some certain screen size.
+I added specified Multimedia queries to solve it:
+
+/* Smaller screens */
+
+>@media screen and (max-width: 370px)
+{
+    #section-2 ul {
+        width: 100% !important;
+    }
+    #section-3 ul {
+        width: 100% !important;
+    }
+}
+
+
+# Java Scripts by 3rd party
  **Java Script to automatically update the copyright year:**
 ```javascript
 // JavaScript code example
