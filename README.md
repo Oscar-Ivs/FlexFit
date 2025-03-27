@@ -147,6 +147,29 @@ To ensure that the FlexFit Gym website offers a seamless and efficient user expe
 
 By employing this structured approach to testing, including validation through W3C tools, we aim to deliver a robust, high-performing, and user-friendly website that meets the needs and expectations of all FlexFit Gym patrons.
 
+## IC Lighthouse testing results for each page
+
+### Home page or Index.html has a great result:
+
+![Index.html](/assets/images/Lighthouse/Index-html.png)
+
+### Membership.html page:
+
+![Membership.html](assets/images/Lighthouse/Membership-html.png)
+
+### Timetables.html page has a excellent performance result:
+
+![Timetables.html](assets/images/Lighthouse/Timetables-html.png)
+
+### Contact-us.html page:
+
+![Contact-us.html](assets/images/Lighthouse/Contact-us-html.png)
+
+### Poor score in Best Practices is do to Google iframe:
+
+![Poor Best practices](assets/images/Lighthouse/Best-practices.png)
+
+
 ### Java Scripts by 3rd party
  **Java Script to automatically update the copyright year:**
 ```javascript
@@ -278,7 +301,7 @@ Under the Branch section, selected my deployment branch (main) and set the direc
 
 Clicked Save to activate GitHub Pages.
 
-## 3. Verified Deployment
+### 3. Verified Deployment
 
 GitHub Pages will automatically deployed my website.
 
