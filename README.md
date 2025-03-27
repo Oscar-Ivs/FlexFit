@@ -148,7 +148,7 @@ To ensure that the FlexFit Gym website offers a seamless and efficient user expe
 By employing this structured approach to testing, including validation through W3C tools, we aim to deliver a robust, high-performing, and user-friendly website that meets the needs and expectations of all FlexFit Gym patrons.
 
 ### Java Scripts by 3rd party
-- **Java Script to automatically update the copyright year:**
+ **Java Script to automatically update the copyright year:**
 ```javascript
 // JavaScript code example
 ```javascript
@@ -162,7 +162,7 @@ By employing this structured approach to testing, including validation through W
 ```
 
 
-- **JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links:**
+ **JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links:**
 // JavaScript code example
 ```javascript
 <script>
@@ -187,7 +187,7 @@ By employing this structured approach to testing, including validation through W
 </script>
 ```
 
--**JavaScript code to display message when "Contact Us" form successful submitted:**
+**JavaScript code to display message when "Contact Us" form successful submitted:**
 ```javascript
 <script>
                     document.getElementById('signup-form').addEventListener('submit', function (event) {
@@ -222,7 +222,7 @@ By employing this structured approach to testing, including validation through W
                     });
 </script>
 ```
--**JavaScript code to display message when "Subscribe" form is successful submitted:**
+**JavaScript code to display message when "Subscribe" form is successful submitted:**
 ```javascript              
 <script>
             document.addEventListener('DOMContentLoaded', function() {
@@ -253,7 +253,40 @@ By employing this structured approach to testing, including validation through W
                 });
             });
             </script>
-            ```
+```
+# Deployment
 
--**Contact Information**
+The project has been deployed using GitHub Pages, providing a live and accessible URL for public access.
+
+## Steps I done for Deployment:
+
+### 1. Pushed my Code to GitHub
+
+Ensured that project is fully functional and tested locally, then pushed my final code to main GitHub repository:
+
+git add .
+git commit -m "Finalized version before deployment"
+git push origin main
+
+### 2. Activated GitHub Pages
+
+Navigate to my repository: https://github.com/Oscar-Ivs/FlexFit
+
+Get to Settings → Pages.
+
+Under the Branch section, selected my deployment branch (main) and set the directory to root.
+
+Clicked Save to activate GitHub Pages.
+
+## 3. Verified Deployment
+
+GitHub Pages will automatically deployed my website.
+
+My live website URL appeared in the Pages settings area.
+https://oscar-ivs.github.io/FlexFit/index.html
+
+Visit my URL to confirm the deployment.
+
+
+## **Contact Information**
 For more information, please contact us at [hk57agob@students.codeinstitute.net](hk57agob@students.codeinstitute.net).
