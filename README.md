@@ -204,6 +204,24 @@ I added specified Multimedia queries to solve it:
 }
 
 
+/* Specific screen size */
+
+  >@media screen and (min-width: 768px) and (max-width: 887px)
+
+  /* Adjust section-2 and section-3 at specific screen size to fill the empty hero img gaps */
+  
+  #section-2, #section-3 {
+        height: 100%;
+    }
+  
+
+  >@media screen and (min-width: 1200px) {
+.modal-content h5 {
+font-size: 1.2rem;
+}
+  }
+
+
 # Java Scripts by 3rd party
  **Java Script to automatically update the copyright year:**
 ```javascript
