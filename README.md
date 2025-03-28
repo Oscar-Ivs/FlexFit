@@ -169,6 +169,9 @@ By employing this structured approach to testing, including validation through W
 
 ![Poor Best practices](assets/images/Lighthouse/Best-practices.png)
 
+
+### To achieve maximum performance and fast loading of the web page, I tried to reduce the data size of each page. Since the largest amount of data is taken up by images, all images were converted to *.webp file format, thus minimizing their size while maintaining their quality.
+
 # Other bug fixes:
 
 I encountered a problem where I was getting unwanted spacings on different screen sizes.
